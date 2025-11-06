@@ -18,8 +18,8 @@ Control (Lógica de control)
 
 | Acción        | Método | Endpoint                    |
 | ------------- | ------ | --------------------------- |
-| Obtener todos | GET    | `/api/contacts`             |
-| Obtener uno   | GET    | `/api/contacts/:documentId` |
-| Crear         | POST   | `/api/contacts`             |
-| Actualizar    | PUT    | `/api/contacts/:documentId` |
-| Eliminar      | DELETE | `/api/contacts/:documentId` |
+| Obtener todos | GET    | `/api/contactos`             |
+| Obtener uno   | GET    | `/api/contactos/:documentId` |
+| Crear         | POST   | `/api/contactos`             |
+| Actualizar    | PUT    | `/api/contactos/:documentId` |
+| Eliminar      | DELETE | `/api/contactos/:documentId` |
