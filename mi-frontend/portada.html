@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portada</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; }
+    .card { border: 1px solid #ddd; padding: 1rem 1.5rem; border-radius: 8px; max-width: 720px; }
+    .title { font-size: 1.8rem; margin: 0 0 0.5rem; }
+    .meta { color: #666; font-size: 0.9rem; margin-bottom: 1rem; }
+    .loading { color: #007acc; }
+    .error { color: #c00; }
+  </style>
+</head>
+<body>
+  <h1>Portada</h1>
+
+  <div id="portada" class="card">
+    <div id="loading" class="loading">Cargando...</div>
+    <h2 id="title" class="title" style="display:none"></h2>
+    <div id="meta" class="meta" style="display:none"></div>
+    <div id="error" class="error" style="display:none"></div>
+  </div>
+
+  <script src="portada.js"></script>
+</body>
+</html>
