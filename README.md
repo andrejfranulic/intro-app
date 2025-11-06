@@ -12,3 +12,14 @@ Este repo está destinado al aprendizaje de desarollo de una aplicación con MVC
 Vista (donde se muestra y se edita)
 Modelo (Base de datos)
 Control (Lógica de control)
+
+
+# CRUD
+
+| Acción        | Método | Endpoint                    |
+| ------------- | ------ | --------------------------- |
+| Obtener todos | GET    | `/api/contacts`             |
+| Obtener uno   | GET    | `/api/contacts/:documentId` |
+| Crear         | POST   | `/api/contacts`             |
+| Actualizar    | PUT    | `/api/contacts/:documentId` |
+| Eliminar      | DELETE | `/api/contacts/:documentId` |
